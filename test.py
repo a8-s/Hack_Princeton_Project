@@ -23,9 +23,13 @@ def main():
 
     docs = db.collection(u'users').stream()
 
-    for doc in docs:
-        print(f'{doc.id} => {doc.to_dict()}')
+    doc_ref = db.collection(u'users').document('david').collection(u'challenges')
+    docs = doc_ref.where(u'URL', u'==', "hbo.com").stream()
 
+    for doc in docs:
+        values = doc.to_dict()
+        if(values['Unlock'] is True):
+            print('Unlocked!')
     
     # doc_ref = db.collection(u'sampleData').document(u'inspiration')
     # users_ref = db.collection(u'sampleData')

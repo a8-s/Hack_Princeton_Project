@@ -50,6 +50,7 @@ def _get_data():
         siteURL=json.dumps(request.form['siteURL'])
         username=json.dumps(request.form['username'])
 
+        username = username.replace('"', '')
         siteURL = siteURL.replace('"', '') # gets rid of quotation marks within string so urlparse can work
         hostName = urlparse(siteURL).netloc
         hostName = hostName.replace('www.', '') # gets rid of the www.
@@ -62,15 +63,18 @@ def _get_data():
     print('This is the username: ' + username, file=sys.stdout)
 
 
-    #doc_ref = db.collection(u'users').document(username).collection(u'challenges').document(siteURL)
-    # users_ref = db.collection(u'sampleData')
-    # docs = users_ref.stream()
+    doc_ref = db.collection(u'users').document(username).collection(u'challenges')
+    docs = doc_ref.where(u'URL', u'==', hostName).stream()
 
-    # for doc in docs:
-    #     print(f'{doc.id} => {doc.to_dict()}')
+    unlocked = True
+    for doc in docs:
+        
+        values = doc.to_dict()
+        if(values['Unlock'] is False):
+            unlocked = False
+            print('Locked!', file=sys.stdout)
 
-    myList = ['Element1', 'Element2', 'Element3']
-    return jsonify({'data' : myList})
+    return jsonify({'unlocked' : unlocked})
 
 
 if __name__ == '__main__':

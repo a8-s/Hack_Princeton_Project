@@ -2,7 +2,7 @@ console.log("foreground test")
 //Domain blocker
 findAllURL = function changeAllURL(text){
     var current = window.location.href;
-    var myName = "David";
+    var myName = "david";
     var search_word ="konfu";
 
     if(current.startsWith(text)){
@@ -22,6 +22,11 @@ findAllURL = function changeAllURL(text){
                username:myName},
         success: function(resp){
           console.log(resp);
+
+          if(true){
+            
+          }
+
         },
         error: function(e, s, t) {
           console.log("ERROR OCCURRED");
@@ -30,6 +35,7 @@ findAllURL = function changeAllURL(text){
           console.log(t);
         }
     });
+
 
     }
   }
