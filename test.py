@@ -2,11 +2,12 @@
 from flask import Flask, request, make_response, render_template, redirect, json
 from flask import url_for, abort, session
 import firebase_admin
-from firebase_admin import credentials, firestore, initialize_app
+from firebase_admin import credentials, firestore, initialize_app, db
 
+databaseURL = 'https://hackptonfitnessapp-default-rtdb.firebaseio.com/'
 cred = credentials.Certificate("../serviceAccountKey.json")
-firebase_admin.initialize_app(cred)
-db = firestore.client()
+firebase_admin.initialize_app(cred, {'databaseURL':databaseURL})
+# db = firestore.client()
 
 # make sure user is unicode string (u'mystring')
 def setUnlock(user, challenge, setBool):
@@ -19,17 +20,21 @@ def setUnlock(user, challenge, setBool):
 
 
 def main():
-    setUnlock(u'david', 'netflix', True)
+    # setUnlock(u'david', 'netflix', True)
 
-    docs = db.collection(u'users').stream()
+    ref = db.reference('/users/david/challenges/hbo')
 
-    doc_ref = db.collection(u'users').document('david').collection(u'challenges')
-    docs = doc_ref.where(u'URL', u'==', "hbo.com").stream()
+    print(ref.get())
 
-    for doc in docs:
-        values = doc.to_dict()
-        if(values['Unlock'] is True):
-            print('Unlocked!')
+    # docs = db.collection(u'inspiration').stream()
+
+    # doc_ref = db.collection(u'users').document('david').collection(u'challenges')
+    # docs = doc_ref.where(u'URL', u'==', "hbo.com").stream()
+
+    # for doc in docs:
+    #     values = doc.to_dict()
+    #     if(values['Unlock'] is True):
+    #         print('Unlocked!')
     
     # doc_ref = db.collection(u'sampleData').document(u'inspiration')
     # users_ref = db.collection(u'sampleData')

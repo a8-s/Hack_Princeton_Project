@@ -3,28 +3,30 @@ from flask import Flask, request, make_response, render_template, redirect, json
 from flask import url_for, abort, session, jsonify
 import firebase_admin
 from flask_cors import CORS, cross_origin
-from firebase_admin import credentials, firestore, initialize_app
+from firebase_admin import credentials, firestore, initialize_app, db
 import sys
 from urllib.parse import urlparse
 
 
-app = Flask(__name__, template_folder='./templates/')
+app = Flask(__name__, template_folder='./templates/', static_folder='./static/')
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
+
+databaseURL = 'https://hackptonfitnessapp-default-rtdb.firebaseio.com/'
 cred = credentials.Certificate("../serviceAccountKey.json")
-firebase_admin.initialize_app(cred)
-db = firestore.client()
+firebase_admin.initialize_app(cred, {'databaseURL':databaseURL})
+# db = firestore.client()
 
 
 
 
 # make sure user is unicode string (u'mystring')
-def setUnlock(user, challenge, setBool):
-    doc_ref = db.collection(u'users').document(user).collection(u'challenges').document(challenge)
-    doc_ref.set({
-        u'Unlock': setBool
-    })
+# def setUnlock(user, challenge, setBool):
+#     doc_ref = db.collection(u'users').document(user).collection(u'challenges').document(challenge)
+#     doc_ref.set({
+#         u'Unlock': setBool
+#     })
 
 # setUnlock(u'david', 'youtube', True)
 
@@ -35,9 +37,6 @@ def index():
 
     html = render_template('index.html')
     response = make_response(html)
-
-
-
     return response
 
 
@@ -62,19 +61,19 @@ def _get_data():
     print('This is the hostName: ' + hostName, file=sys.stdout)
     print('This is the username: ' + username, file=sys.stdout)
 
+    ref = db.reference('/users/' + username + "/challenges/" + hostName.replace('.com', ''))
 
-    doc_ref = db.collection(u'users').document(username).collection(u'challenges')
-    docs = doc_ref.where(u'URL', u'==', hostName).stream()
+    # doc_ref = db.collection(u'users').document(username).collection(u'challenges')
+    values = ref.get()
+    print(values, file=sys.stdout)
 
     challengeName = ''
     unlocked = True
-    for doc in docs:
-        
-        values = doc.to_dict()
-        if(values['Unlock'] is False):
-            unlocked = False
-            challengeName = values['ChallengeName']
-            print('Locked!', file=sys.stdout)
+    
+    if(values['Unlock'] == "False"):
+        unlocked = False
+        challengeName = values['ChallengeName']
+        print('Locked!', file=sys.stdout)
 
     return jsonify({'unlocked' : unlocked, 'title' : challengeName, 'hostName' : hostName})
 

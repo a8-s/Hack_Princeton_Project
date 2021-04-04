@@ -1,9 +1,255 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>healthapp</title>
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="static/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="static/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="static/css/Contact-Form-v2-Modal--Full-with-Google-Map.css">
+    <link rel="stylesheet" href="static/css/Features-Boxed.css">
+    <link rel="stylesheet" href="static/css/Features-Clean.css">
+    <link rel="stylesheet" href="static/css/Footer-Basic.css">
+    <link rel="stylesheet" href="static/css/Multi-step-form.css">
+    <link rel="stylesheet" href="static/css/Parallax-Scroll-Effect.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <div class="container-fluid">
+            <h1>Contact Information</h1>
+            <form id="contactForm" action="javascript:void(0);" method="get"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden" name="to" value="email@awebsite.com">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div id="successfail"></div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-12 col-md-6 offset-md-3" id="message">
+                        <h2 class="text-center">Let's get some more info</h2>
+                        <div class="form-group"><label for="from-name">Name</label><span class="required-input">*</span>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-user-o"></i></span></div><input class="form-control" type="text" id="from-name" name="name" required="" placeholder="Full Name">
+                            </div>
+                        </div><div class="form-group"><label for="from-email">Email</label><span class="required-input">*</span>
+    <div class="input-group">
+        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input type="text" class="form-control" id="from-email" name="email" required placeholder="Email Address" />
+    </div>
+</div>
+<br><label for="from-comments">Content you like</label>
+                        <div>
+                            <fieldset><div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline1" class="custom-control-input" unchecked /><label class="custom-control-label" for="customCheckInline1">Netflix</label></div>
+
+<div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input" unchecked /><label class="custom-control-label" for="customCheckInline2">YouTube</label></div>
+
+<div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline3" class="custom-control-input" unchecked /><label class="custom-control-label" for="customCheckInline3">Hulu</label></div>
+
+<div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline4" class="custom-control-input" unchecked /><label class="custom-control-label" for="customCheckInline4">Disney+</label></div>
+
+<div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline5" class="custom-control-input" unchecked /><label class="custom-control-label" for="customCheckInline5">Prime Video</label></div>
+
+<div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline6" class="custom-control-input" unchecked /><label class="custom-control-label" for="customCheckInline6">HBO</label></div>
+
+<div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline7" class="custom-control-input" unchecked /><label class="custom-control-label" for="customCheckInline7">Xbox Live</label></div>
+
+<div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline8" class="custom-control-input" unchecked /><label class="custom-control-label" for="customCheckInline8">PSN</label></div>
+</fieldset>
+                        </div>
+                        <div class="form-group"><br>
+<label for="from-comments">Fitness Ability</label>
+<br>
+
+<form class="form-inline">
+  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">I can run a mile in under: </label>
+  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <option selected>Choose...</option>
+    <option value="1">5 minute</option>
+    <option value="2">5 minutes</option>
+          <option value="3">6 minutes</option>
+    <option value="3">7 minutes</option>
+       <option value="3">8 minutes</option>
+       <option value="3">8 minutes</option>
+       <option value="3">10 minutes</option>
+       <option value="3">over 10 minutes</option>
+  </select></div>
+                        <div class="form-group"><br>
+
+<form class="form-inline">
+  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">I excercise: </label>
+  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <option selected>Choose...</option>
+    <option value="1">daily</option>
+    <option value="2">weekly</option>
+     <option value="2">not regularly</option>
+    <option value="2">never</option>
+
+  </select>
+</div>
+                        <div class="form-group"><div class="form-row">
+    <div class="col-lg-5 offset-md-2 offset-lg-3"><button class="btn btn-primary btn-block" type="submit" style="width: 281.5px;">Submit <i class="fa fa-chevron-circle-right"></i></button></div>
+</div>
+<br>
+<br></div>
+                        <hr class="d-flex d-md-none">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal1">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Contact Information</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="contactForm" action="javascript:void(0);" method="get"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden" name="to" value="email@awebsite.com">
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div id="successfail"></div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-12 col-md-6" id="message">
+                                    <h2 class="h4"><i class="fa fa-envelope"></i> Contact Us<small><small class="required-input">&nbsp;(*required)</small></small></h2>
+                                    <div class="form-group"><label for="from-name">Name</label><span class="required-input">*</span>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-user-o"></i></span></div><input class="form-control" type="text" id="from-name" name="name" required="" placeholder="Full Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group"><label for="from-email">Email</label><span class="required-input">*</span>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="text" id="from-email" name="email" required="" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                            <div class="form-group"><label for="from-phone">Phone</label><span class="required-input">*</span>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" id="from-phone" name="phone" required="" placeholder="Primary Phone">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                            <div class="form-group"><label for="from-calltime">Best Time to Call</label>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-clock-o"></i></span></div><select class="form-control" id="from-calltime" name="call time">
+                                                        <optgroup label="Best Time to Call">
+                                                            <option value="Morning" selected="">Morning</option>
+                                                            <option value="Afternoon">Afternoon</option>
+                                                            <option value="Evening">Evening</option>
+                                                        </optgroup>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group"><label for="from-comments">Comments</label><textarea class="form-control" id="from-comments" name="comments" placeholder="Enter Comments" rows="5"></textarea></div>
+                                    <div class="form-group">
+                                        <div class="form-row">
+                                            <div class="col"><button class="btn btn-primary btn-block" type="reset"><i class="fa fa-undo"></i> Reset</button></div>
+                                            <div class="col"><button class="btn btn-primary btn-block" type="submit">Submit <i class="fa fa-chevron-circle-right"></i></button></div>
+                                        </div>
+                                    </div>
+                                    <hr class="d-flex d-md-none">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <h2 class="h4"><i class="fa fa-location-arrow"></i> Locate Us</h2>
+                                    <div class="form-row">
+                                        <div class="col-12">
+                                            <div class="static-map"><a rel="noopener" href="https://www.google.com/maps/place/Daytona+International+Speedway/@29.1815062,-81.0744275,15z/data=!4m13!1m7!3m6!1s0x88e6d935da1cced3:0xa6b3e1bc0f2fc83a!2s1801+W+International+Speedway+Blvd,+Daytona+Beach,+FL+32114!3b1!8m2!3d29.187028!4d-81.0703076!3m4!1s0x88e6d949a4cb8593:0x1387c6c0b5c8cc97!8m2!3d29.1851681!4d-81.0705292" target="_blank"> <img class="img-fluid" src="http://maps.googleapis.com/maps/api/staticmap?autoscale=2&amp;size=600x210&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C582+1801+W+International+Speedway+Blvd+Daytona+Beach+FL+32114&amp;zoom=12" alt="Google Map of Daytona International Speedway"></a></div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-12 col-lg-6">
+                                            <h2 class="h4"><i class="fa fa-user"></i> Our Info</h2>
+                                            <div><span><strong>Name</strong></span></div>
+                                            <div><span>email@awebsite.com</span></div>
+                                            <div><span>www.awebsite.com</span></div>
+                                            <hr class="d-sm-none d-md-block d-lg-none">
+                                        </div>
+                                        <div class="col-sm-6 col-md-12 col-lg-6">
+                                            <h2 class="h4"><i class="fa fa-location-arrow"></i> Our Address</h2>
+                                            <div><span><strong>Office Name</strong></span></div>
+                                            <div><span>55 Icannot Dr</span></div>
+                                            <div><span>Daytone Beach, FL 85150</span></div>
+                                            <div><abbr data-toggle="tooltip" data-placement="top" title="Office Phone: 555-867-5309">O:</abbr> 555-867-5309</div>
+                                            <hr class="d-sm-none">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="features-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Challenger</h2>
+                <p class="text-center">Find friends, challenge them</p>
+            </div>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box" style="height: 321px;"><i class="fa fa-trophy icon"></i>
+                        <h3 class="name">Challenge</h3>
+                        <p class="description">Create a new challenge</p><button class="btn btn-primary" type="button">Create challenge</button><a class="learn-more" href="#"></a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box" style="height: 321px;"><i class="fa fa-users icon"></i>
+                        <h3 class="name">Select friends</h3>
+                        <p class="description">Choose a friend to challenge</p>
+                        <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-toggle="dropdown" type="button">Friends&nbsp;</button>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                        </div><a class="learn-more" href="#"></a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box" style="height: 321px;"><i class="fa fa-tasks icon"></i>
+                        <h3 class="name">Select your tasks</h3>
+                        <p class="description">Choose from a variety of tasks</p><button class="btn btn-primary" type="button">Button</button><a class="learn-more" href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features-clean" style="margin: 0px;">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Tasks</h2>
+                <p class="text-center">Select which task you would like to focus on</p>
+            </div>
+            <div class="row features">
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-check-square-o icon"></i>
+                    <h3 class="name">Aerobic</h3><button class="btn btn-primary" type="button" style="width: 150px;">Walking</button><button class="btn btn-primary" type="button" style="width: 150px;">Biking</button><button class="btn btn-primary" type="button" style="width: 150px;">Swimming</button><button class="btn btn-primary" type="button" style="width: 150px;">Hiking</button>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-check-square-o icon"></i>
+                    <h3 class="name">Stamina</h3><button class="btn btn-primary" type="button" style="width: 150px;">Sprinting</button><button class="btn btn-primary" type="button" style="width: 150px;">Burpees</button><button class="btn btn-primary" type="button" style="width: 150px;">Jump Rope</button><button class="btn btn-primary" type="button" style="width: 150px;">Jumping Jacks</button>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-check-square-o icon"></i>
+                    <h3 class="name">Strength</h3><button class="btn btn-primary" type="button" style="width: 150px;">Push-ups</button><button class="btn btn-primary" type="button" style="width: 150px;">Pull-ups</button><button class="btn btn-primary" type="button" style="width: 150px;">Body Squats</button><button class="btn btn-primary" type="button" style="width: 150px;">Dumbbells</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-basic">
+        <div class="social"><a href="#"><i class="icon ion-social-github"></i></a><a href="#"><i class="icon ion-social-windows"></i></a><a href="#"><i class="icon ion-wrench"></i></a></div>
+        <!-- <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">tab</a></li>
+            <li class="list-inline-item"><a href="#">tab</a></li>
+            <li class="list-inline-item"><a href="#">tab</a></li>
+            <li class="list-inline-item"><a href="#">tab</a></li>
+        </ul> -->
+        <p class="copyright">ChallengerMedia © 2021</p>
+    </footer>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/js/Contact-Form-v2-Modal--Full-with-Google-Map.js"></script>
+    <script src="static/js/Multi-step-form.js"></script>
+</body>
+
 </html>

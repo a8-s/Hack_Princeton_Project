@@ -518,3 +518,350 @@
 127.0.0.1 - - [04/Apr/2021 03:24:48] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
 127.0.0.1 - - [04/Apr/2021 03:24:53] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
 127.0.0.1 - - [04/Apr/2021 03:24:57] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/fonts/font-awesome.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/fonts/ionicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/css/Contact-Form-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/css/Features-Boxed.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/css/Features-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/css/Footer-Basic.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/css/Multi-step-form.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/css/Parallax-Scroll-Effect.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/js/jquery.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[33mGET /assets/js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:47:29] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:49:42] "[33mGET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:49:42] "[33mGET /assets/fonts/font-awesome.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:49:42] "[33mGET /assets/fonts/ionicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:49:42] "[33mGET /assets/css/Contact-Form-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:49:42] "[33mGET /assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:49:42] "[33mGET /assets/css/Features-Boxed.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:49:42] "[33mGET /assets/css/Features-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:49:42] "[33mGET /assets/css/Footer-Basic.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:49:42] "[33mGET /assets/css/Multi-step-form.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:49:42] "[33mGET /assets/css/Parallax-Scroll-Effect.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:49:42] "[33mGET /assets/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:51:21] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:51:38] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:53:10] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:53:12] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[33mGET /assets/fonts/font-awesome.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[33mGET /assets/fonts/ionicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[33mGET /assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[33mGET /assets/css/Features-Boxed.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[33mGET /assets/css/Features-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[33mGET /assets/css/Footer-Basic.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[33mGET /assets/css/Multi-step-form.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[33mGET /assets/css/Parallax-Scroll-Effect.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[33mGET /assets/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[33mGET /assets/js/jquery.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[33mGET /assets/js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:54:45] "[33mGET /assets/js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:54:46] "[37mGET /assets/css/Contact-Form-Clean.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:54:46] "[37mGET /assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:54:46] "[37mGET /assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /fonts/font-awesome.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /fonts/ionicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /css/Contact-Form-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /css/Features-Boxed.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /css/Contact-Form-v2-Modal--Full-with-Google-Map.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /css/Features-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /css/Footer-Basic.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /css/Multi-step-form.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /css/Parallax-Scroll-Effect.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /fonts/font-awesome.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /fonts/ionicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /css/Contact-Form-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /css/Contact-Form-v2-Modal--Full-with-Google-Map.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /css/Features-Boxed.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:20] "[33mGET /css/Features-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Footer-Basic.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Multi-step-form.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Parallax-Scroll-Effect.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /fonts/font-awesome.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /fonts/ionicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Contact-Form-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Contact-Form-v2-Modal--Full-with-Google-Map.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Features-Boxed.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Features-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Footer-Basic.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Multi-step-form.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Parallax-Scroll-Effect.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /fonts/font-awesome.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /fonts/ionicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Contact-Form-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Contact-Form-v2-Modal--Full-with-Google-Map.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Features-Boxed.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Features-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Footer-Basic.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Multi-step-form.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/Parallax-Scroll-Effect.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[33mGET /js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:55:21] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /fonts/font-awesome.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /fonts/ionicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /css/Contact-Form-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /css/Contact-Form-v2-Modal--Full-with-Google-Map.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /css/Features-Boxed.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /css/Features-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /css/Footer-Basic.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /css/Multi-step-form.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /css/Parallax-Scroll-Effect.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:35] "[33mGET /js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:56:36] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:56:52] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:56:59] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:57:03] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:57:07] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[33mGET /static/fonts/font-awesome.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[33mGET /static/fonts/ionicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[33mGET /static/css/Contact-Form-v2-Modal--Full-with-Google-Map.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[33mGET /static/css/Features-Boxed.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[33mGET /static/css/Features-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[33mGET /static/css/Footer-Basic.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[33mGET /static/css/Multi-step-form.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[33mGET /static/css/Parallax-Scroll-Effect.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[33mGET /static/js/jquery.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[33mGET /static/js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:05] "[33mGET /static/js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:06] "[37mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:58:06] "[37mGET /static/css/Contact-Form-Clean.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:58:06] "[37mGET /static/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:58:06] "[33mGET /static/js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:06] "[33mGET /static/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:06] "[33mGET /static/js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:07] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/fonts/font-awesome.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/fonts/ionicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/css/Contact-Form-v2-Modal--Full-with-Google-Map.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/css/Features-Boxed.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/css/Features-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/css/Footer-Basic.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/css/Multi-step-form.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/css/Parallax-Scroll-Effect.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/js/jquery.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:08] "[33mGET /static/js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:09] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[33mGET /static/fonts/font-awesome.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[33mGET /static/fonts/ionicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[33mGET /static/css/Footer-Basic.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[33mGET /static/css/Features-Boxed.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[33mGET /static/css/Features-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[33mGET /static/css/Contact-Form-v2-Modal--Full-with-Google-Map.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[33mGET /static/css/Multi-step-form.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[33mGET /static/css/Parallax-Scroll-Effect.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[33mGET /static/js/jquery.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[33mGET /static/js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:28] "[33mGET /static/js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:29] "[33mGET /static/js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:29] "[33mGET /static/js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:29] "[33mGET /static/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 03:58:29] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[33mGET /static/fonts/font-awesome.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[33mGET /static/fonts/ionicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[33mGET /static/css/Contact-Form-v2-Modal--Full-with-Google-Map.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[33mGET /static/css/Features-Boxed.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[33mGET /static/css/Footer-Basic.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[33mGET /static/css/Multi-step-form.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[33mGET /static/css/Features-Clean.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[33mGET /static/css/Parallax-Scroll-Effect.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[33mGET /static/js/jquery.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[33mGET /static/js/Contact-Form-v2-Modal--Full-with-Google-Map.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[33mGET /static/js/Multi-step-form.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 04:00:33] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 04:01:55] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 04:01:59] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 04:02:01] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 04:02:52] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 04:14:24] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 04:25:10] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 04:34:18] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 05:10:35] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 05:10:37] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 05:19:04] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 05:19:13] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 05:20:18] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 05:20:28] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 05:29:27] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 05:30:33] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 05:30:57] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 06:21:53] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 06:22:17] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Apr/2021 06:22:35] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Apr/2021 06:22:42] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 06:31:47] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 06:33:23] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 06:35:12] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 06:35:27] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 06:36:22] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 06:38:16] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 06:38:54] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 06:44:12] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 06:46:04] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 06:46:26] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 06:46:54] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 06:47:06] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
