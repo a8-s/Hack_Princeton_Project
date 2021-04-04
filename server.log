@@ -434,3 +434,17 @@
 127.0.0.1 - - [04/Apr/2021 01:01:46] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
 127.0.0.1 - - [04/Apr/2021 01:03:47] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
 127.0.0.1 - - [04/Apr/2021 01:03:55] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 01:06:11] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 01:06:25] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 01:14:13] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 01:26:28] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 01:27:20] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 01:29:51] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
