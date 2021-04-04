@@ -1,15 +1,15 @@
 console.log("foreground test")
 //Domain blocker
-findAllURL = function changeAllURL(text){
     var current = window.location.href;
     var myName = "david";
     var search_word ="konfu";
 
-    if(current.startsWith(text)){
 
 
       // console.log("Sending message now");
       // chrome.runtime.sendMessage({message: "listeners"}, function(response){})
+
+      var htmlTemplate = '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>\n<script src="js/bootstrap.min.js"></script>\n <h1 style="position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); font-family: \'Georgia\';">'
 
       $.ajax({
         url: "http://127.0.0.1:12345/_get_data/",
@@ -19,11 +19,11 @@ findAllURL = function changeAllURL(text){
         data: {siteURL:current,
                username:myName},
         success: function(resp){
-          console.log(resp["unlocked"]);
+          console.log(resp);
 
           if(!resp["unlocked"]){
             document.documentElement.innerHTML = '';
-            document.documentElement.innerHTML = 'Domain is blocked until Challenge 1 is completed';
+            document.documentElement.innerHTML = htmlTemplate + resp["title"] + resp["hostName"] + '!</h1>';
             document.documentElement.scrollTop = 0;
           }
 
@@ -37,10 +37,5 @@ findAllURL = function changeAllURL(text){
     });
 
 
-    }
-  }
-
-
-  findAllURL("https://www.hbo.com/");
 
   

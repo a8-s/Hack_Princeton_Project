@@ -66,15 +66,17 @@ def _get_data():
     doc_ref = db.collection(u'users').document(username).collection(u'challenges')
     docs = doc_ref.where(u'URL', u'==', hostName).stream()
 
+    challengeName = ''
     unlocked = True
     for doc in docs:
         
         values = doc.to_dict()
         if(values['Unlock'] is False):
             unlocked = False
+            challengeName = values['ChallengeName']
             print('Locked!', file=sys.stdout)
 
-    return jsonify({'unlocked' : unlocked})
+    return jsonify({'unlocked' : unlocked, 'title' : challengeName, 'hostName' : hostName})
 
 
 if __name__ == '__main__':
