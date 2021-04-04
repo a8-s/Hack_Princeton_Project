@@ -17,9 +17,14 @@ def setUnlock(user, challenge, setBool):
     print('set')
 
 
-def main():
-    setUnlock(u'david', 'netflix', False)
 
+def main():
+    setUnlock(u'david', 'netflix', True)
+
+    docs = db.collection(u'users').stream()
+
+    for doc in docs:
+        print(f'{doc.id} => {doc.to_dict()}')
 
     
     # doc_ref = db.collection(u'sampleData').document(u'inspiration')
