@@ -5,6 +5,7 @@ import firebase_admin
 from flask_cors import CORS, cross_origin
 from firebase_admin import credentials, firestore, initialize_app
 import sys
+from urllib.parse import urlparse
 
 
 app = Flask(__name__, template_folder='./templates/')
@@ -46,16 +47,22 @@ def _get_data():
     siteURL=None
     if request.method == "POST":
 
-        siteURL=request.form['siteURL']
-        username=request.form['username']
+        siteURL=json.dumps(request.form['siteURL'])
+        username=json.dumps(request.form['username'])
+
+        siteURL = siteURL.replace('"', '') # gets rid of quotation marks within string so urlparse can work
+        hostName = urlparse(siteURL).netloc
+        hostName = hostName.replace('www.', '') # gets rid of the www.
 
 
+    # siteURL = siteURL.replace("http://www.","")
 
-    print('This is the URL: ' + json.dumps(siteURL), file=sys.stdout)
-    print('This is the username: ' + json.dumps(username), file=sys.stdout)
+    print('This is the URL: ' + siteURL, file=sys.stdout)
+    print('This is the hostName: ' + hostName, file=sys.stdout)
+    print('This is the username: ' + username, file=sys.stdout)
 
 
-   # doc_ref = db.collection(u'users').document(username).collection(u'challenges').document(challenge)
+    #doc_ref = db.collection(u'users').document(username).collection(u'challenges').document(siteURL)
     # users_ref = db.collection(u'sampleData')
     # docs = users_ref.stream()
 
