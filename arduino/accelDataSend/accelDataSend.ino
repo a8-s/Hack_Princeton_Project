@@ -297,6 +297,14 @@ void loop() {
         // reset so we can continue cleanly
         mpu.resetFIFO();
         Serial.println(F("FIFO overflow!"));
+         Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
+         Serial.println(Firebase.getString("/test"));
+        Firebase.setString("/adress", "False");
+         if (Firebase.failed()) {
+        Serial.print("message failed:");
+        Serial.println(Firebase.error());  
+         return;
+  }
 
     // otherwise, check for DMP data ready interrupt (this should happen frequently)
     } else if (mpuIntStatus & 0x02) {
