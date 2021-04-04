@@ -865,3 +865,47 @@
 127.0.0.1 - - [04/Apr/2021 06:46:26] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
 127.0.0.1 - - [04/Apr/2021 06:46:54] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
 127.0.0.1 - - [04/Apr/2021 06:47:06] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[37mGET /profile HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /templates/screen1.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /rectangle-1-1.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /rectangle-18.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /vector-1.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /ellipse-6-1.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /vector-2.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /ellipse-9.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /ellipse-10.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /vector-11.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /vector-6.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /group-5-1.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /group-6-1.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[33mGET /vector-27.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:35:03] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Apr/2021 07:35:07] "[33mGET /templates/screen1.css HTTP/1.1[0m" 404 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[37mGET /profile HTTP/1.1[0m" 200 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[33mGET /rectangle-1-1.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[33mGET /rectangle-18.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[33mGET /vector-1.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[33mGET /vector-2.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[33mGET /ellipse-6-1.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[33mGET /ellipse-9.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[33mGET /ellipse-10.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[33mGET /vector-11.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[33mGET /vector-6.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[33mGET /group-5-1.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[33mGET /vector-27.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[33mGET /group-6-1.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [04/Apr/2021 07:36:55] "[37mGET /static/screen1.css HTTP/1.1[0m" 200 -

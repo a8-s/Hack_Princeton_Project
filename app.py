@@ -39,6 +39,41 @@ def index():
     response = make_response(html)
     return response
 
+@app.route('/profile')
+def screen1():
+
+    html = render_template('screen1.html')
+    response = make_response(html)
+    return response
+
+
+
+@app.route('/challengeOne')
+def screen2():
+
+    html = render_template('screen2.html')
+    response = make_response(html)
+    return response
+
+# @app.route('/css/<path:path>')
+# def send_css(path):
+#     return send_from_directory('templates', path)
+
+
+@app.route('/challengeTwo')
+def screen3():
+
+    html = render_template('screen3.html')
+    response = make_response(html)
+    return response
+
+@app.route('/recommendation')
+def screen4():
+
+    html = render_template('screen4.html')
+    response = make_response(html)
+    return response
+
 
 @app.route('/_get_data/', methods=['POST'])
 def _get_data():
