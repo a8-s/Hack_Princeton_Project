@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600");
+.challenge-me-page {
+  align-items: flex-start;
+  background-color: whitesmoke;
+  display: flex;
+  height: 1024px;
+  overflow: hidden;
+  padding: 0 143px;
+  width: 1440px;
+}
+.challenge-me-page .address {
+  left: -108px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 141px;
+  width: 200px;
+}
+.challenge-me-page .do-a-half-mile-jog {
+  left: 163px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 141px;
+  width: 200px;
+}
+.challenge-me-page .overlap-group {
+  align-items: flex-end;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: -52px;
+  min-height: 1426px;
+  padding: 57px 0;
+  width: 1139px;
+}
+.challenge-me-page .overlap-group1 {
+  height: 307px;
+  margin-right: -55px;
+  margin-top: 50px;
+  position: relative;
+  width: 949px;
+}
+.challenge-me-page .overlap-group2 {
+  height: 202px;
+  margin-right: -57px;
+  margin-top: 35px;
+  position: relative;
+  width: 951px;
+}
+.challenge-me-page .overlap-group3 {
+  height: 131px;
+  margin-right: -105px;
+  margin-top: 35px;
+  position: relative;
+  width: 1003px;
+}
+.challenge-me-page .overlap-group4 {
+  height: 89px;
+  margin-right: 138px;
+  position: relative;
+  width: 515px;
+}
+.challenge-me-page .rectangle-10 {
+  background-color: var(--dodger-blue);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 101px;
+  left: -121px;
+  position: absolute;
+  top: 131px;
+  width: 228px;
+}
+.challenge-me-page .rectangle-13 {
+  border-radius: 10px;
+  height: 58px;
+  left: -97px;
+  position: absolute;
+  top: 161px;
+  width: 228px;
+}
+.challenge-me-page .rectangle-16 {
+  background-color: var(--dodger-blue);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 101px;
+  left: 150px;
+  position: absolute;
+  top: 131px;
+  width: 228px;
+}
+.challenge-me-page .rectangle-2 {
+  background-color: var(--cornflower);
+  border-radius: 10px;
+  height: 82px;
+  left: -151px;
+  position: absolute;
+  top: 59px;
+  width: 500px;
+}
+.challenge-me-page .rectangle-3 {
+  background-color: var(--havelock-blue);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 131px;
+  left: -158px;
+  position: absolute;
+  top: 52px;
+  width: 957px;
+}
+.challenge-me-page .rectangle-4 {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 202px;
+  left: -158px;
+  position: absolute;
+  top: 52px;
+  width: 949px;
+}
+.challenge-me-page .rectangle-5 {
+  background-color: var(--cornflower);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 43px;
+  left: -103px;
+  position: absolute;
+  top: 120px;
+  width: 820px;
+}
+.challenge-me-page .rectangle-9 {
+  background-color: var(--malibu);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 307px;
+  left: -158px;
+  position: absolute;
+  top: 52px;
+  width: 949px;
+}
+.challenge-me-page .rules {
+  left: -121px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-decoration: underline;
+  top: 78px;
+  width: 467px;
+}
+.challenge-me-page .tasks {
+  left: -126px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-decoration: underline;
+  top: 66px;
+  width: 467px;
+}
+.challenge-me-page .text-1 {
+  left: 540px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 201px;
+  width: 253px;
+}
+.challenge-me-page .text-2 {
+  left: -79px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  top: 59px;
+  width: 924px;
+}
+.challenge-me-page .title {
+  left: -158px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 52px;
+  width: 515px;
+}
+.challenge-me-page .url {
+  left: -65px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 126px;
+  width: 253px;
+}
+.poppins-medium-chicago-20px {
+  color: var(--chicago);
+  font-family: "Poppins", Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-normal-white-26px {
+  color: white;
+  font-family: "Poppins", Helvetica;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+}
+.poppins-semi-bold-midnight-moss-30px {
+  color: var(--midnight-moss);
+  font-family: "Poppins", Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+}
+.poppins-semi-bold-midnight-moss-60px {
+  color: var(--midnight-moss);
+  font-family: "Poppins", Helvetica;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+}
+.poppins-semi-bold-white-40px {
+  color: white;
+  font-family: "Poppins", Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+:root {
+  --chicago: rgba(95, 94, 94, 1);
+  --cornflower: rgba(151, 198, 252, 1);
+  --dodger-blue: rgba(45, 133, 240, 1);
+  --havelock-blue: rgba(87, 151, 228, 1);
+  --malibu: rgba(115, 177, 250, 1);
+  --midnight-moss: rgba(6, 6, 6, 1);
+}

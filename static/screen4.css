@@ -1,0 +1,544 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600");
+.my-profile {
+  align-items: flex-start;
+  background-color: whitesmoke;
+  display: flex;
+  height: 1024px;
+  overflow: hidden;
+  padding: 0 143px;
+  width: 1440px;
+}
+.my-profile .ellipse-10 {
+  height: 23px;
+  left: 199px;
+  position: absolute;
+  top: 281px;
+  width: 23px;
+}
+.my-profile .ellipse-11 {
+  height: 23px;
+  left: -17px;
+  position: absolute;
+  top: 295px;
+  width: 23px;
+}
+.my-profile .ellipse-6 {
+  height: 23px;
+  left: 41px;
+  position: absolute;
+  top: 173px;
+  width: 23px;
+}
+.my-profile .ellipse-9 {
+  height: 23px;
+  left: 199px;
+  position: absolute;
+  top: 245px;
+  width: 23px;
+}
+.my-profile .group-3 {
+  height: 66px;
+  left: -100px;
+  position: absolute;
+  top: 309px;
+  width: 209px;
+}
+.my-profile .group-4 {
+  height: 66px;
+  left: -100px;
+  position: absolute;
+  top: 378px;
+  width: 209px;
+}
+.my-profile .group-5 {
+  height: 66px;
+  left: 206px;
+  position: absolute;
+  top: 376px;
+  width: 209px;
+}
+.my-profile .group-6 {
+  height: 66px;
+  left: 206px;
+  position: absolute;
+  top: 307px;
+  width: 209px;
+}
+.my-profile .group-7 {
+  height: 66px;
+  left: 515px;
+  position: absolute;
+  top: 378px;
+  width: 209px;
+}
+.my-profile .group-8 {
+  height: 66px;
+  left: 515px;
+  position: absolute;
+  top: 309px;
+  width: 209px;
+}
+.my-profile .gym-1 {
+  left: -96px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 160px;
+  width: 200px;
+}
+.my-profile .gym-2 {
+  left: 212px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 160px;
+  width: 200px;
+}
+.my-profile .gym-3 {
+  left: 520px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 160px;
+  width: 200px;
+}
+.my-profile .overlap-group {
+  align-items: flex-end;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: -52px;
+  min-height: 1426px;
+  padding: 57px 0;
+  width: 1139px;
+}
+.my-profile .overlap-group1 {
+  height: 319px;
+  margin-right: -69px;
+  margin-top: 34px;
+  position: relative;
+  width: 969px;
+}
+.my-profile .overlap-group2 {
+  height: 458px;
+  margin-right: -69px;
+  margin-top: 21px;
+  position: relative;
+  width: 949px;
+}
+.my-profile .overlap-group3 {
+  height: 89px;
+  margin-right: 138px;
+  position: relative;
+  width: 515px;
+}
+.my-profile .rectangle-1 {
+  height: 112px;
+  left: -96px;
+  object-fit: cover;
+  position: absolute;
+  top: 121px;
+  width: 112px;
+}
+.my-profile .rectangle-10 {
+  background-color: var(--dodger-blue);
+  border-radius: 10px;
+  height: 58px;
+  left: -111px;
+  position: absolute;
+  top: 150px;
+  width: 228px;
+}
+.my-profile .rectangle-13 {
+  border-radius: 10px;
+  height: 58px;
+  left: -111px;
+  position: absolute;
+  top: 240px;
+  width: 228px;
+}
+.my-profile .rectangle-14 {
+  background-color: var(--dodger-blue);
+  border-radius: 10px;
+  height: 58px;
+  left: 197px;
+  position: absolute;
+  top: 150px;
+  width: 228px;
+}
+.my-profile .rectangle-15 {
+  background-color: var(--dodger-blue);
+  border-radius: 10px;
+  height: 58px;
+  left: 505px;
+  position: absolute;
+  top: 150px;
+  width: 228px;
+}
+.my-profile .rectangle-16 {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  height: 319px;
+  left: -138px;
+  position: absolute;
+  top: 52px;
+  width: 949px;
+}
+.my-profile .rectangle-17 {
+  background-color: var(--havelock-blue);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 108px;
+  left: -34px;
+  position: absolute;
+  top: 240px;
+  width: 674px;
+}
+.my-profile .rectangle-18 {
+  height: 112px;
+  left: 654px;
+  object-fit: cover;
+  position: absolute;
+  top: 244px;
+  width: 112px;
+}
+.my-profile .rectangle-2 {
+  background-color: var(--cornflower);
+  border-radius: 10px;
+  height: 82px;
+  left: -151px;
+  position: absolute;
+  top: 59px;
+  width: 500px;
+}
+.my-profile .rectangle-3 {
+  background-color: var(--havelock-blue);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 108px;
+  left: 24px;
+  position: absolute;
+  top: 118px;
+  width: 674px;
+}
+.my-profile .rectangle-4 {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  height: 458px;
+  left: -158px;
+  position: absolute;
+  top: 52px;
+  width: 949px;
+}
+.my-profile .rectangle-7 {
+  background-color: var(--mustard);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 353px;
+  left: 476px;
+  position: absolute;
+  top: 131px;
+  width: 286px;
+}
+.my-profile .rectangle-8 {
+  background-color: var(--energy-yellow);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 353px;
+  left: 168px;
+  position: absolute;
+  top: 131px;
+  width: 286px;
+}
+.my-profile .rectangle-9 {
+  background-color: var(--sweet-corn);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 353px;
+  left: -140px;
+  position: absolute;
+  top: 131px;
+  width: 286px;
+}
+.my-profile .text-1 {
+  left: -121px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-decoration: underline;
+  top: 70px;
+  width: 885px;
+}
+.my-profile .text-2 {
+  left: -101px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-decoration: underline;
+  top: 60px;
+  width: 885px;
+}
+.my-profile .text-3 {
+  left: 84px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 162px;
+  width: 468px;
+}
+.my-profile .text-4 {
+  left: 18px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 282px;
+  width: 520px;
+}
+.my-profile .title {
+  left: -158px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 52px;
+  width: 515px;
+}
+.my-profile .username-jj {
+  left: -158px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 249px;
+  width: 467px;
+}
+.my-profile .username987 {
+  left: -100px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 127px;
+  width: 467px;
+}
+.my-profile .vector {
+  height: 30px;
+  left: -10px;
+  position: absolute;
+  top: 240px;
+  width: 30px;
+}
+.my-profile .vector-1 {
+  height: 30px;
+  left: 605px;
+  position: absolute;
+  top: 239px;
+  width: 30px;
+}
+.my-profile .vector-10 {
+  height: 19px;
+  left: 250px;
+  position: absolute;
+  top: 137px;
+  width: 19px;
+}
+.my-profile .vector-11 {
+  height: 30px;
+  left: -99px;
+  position: absolute;
+  top: 240px;
+  width: 30px;
+}
+.my-profile .vector-12 {
+  height: 19px;
+  left: 269px;
+  position: absolute;
+  top: 259px;
+  width: 19px;
+}
+.my-profile .vector-13 {
+  height: 19px;
+  left: 335px;
+  position: absolute;
+  top: 137px;
+  width: 19px;
+}
+.my-profile .vector-14 {
+  height: 30px;
+  left: 78px;
+  position: absolute;
+  top: 240px;
+  width: 30px;
+}
+.my-profile .vector-15 {
+  height: 30px;
+  left: 296px;
+  position: absolute;
+  top: 239px;
+  width: 30px;
+}
+.my-profile .vector-16 {
+  height: 30px;
+  left: 693px;
+  position: absolute;
+  top: 239px;
+  width: 30px;
+}
+.my-profile .vector-17 {
+  height: 30px;
+  left: -55px;
+  position: absolute;
+  top: 240px;
+  width: 30px;
+}
+.my-profile .vector-18 {
+  height: 76px;
+  left: 536px;
+  position: absolute;
+  top: 256px;
+  width: 80px;
+}
+.my-profile .vector-19 {
+  height: 30px;
+  left: 560px;
+  position: absolute;
+  top: 239px;
+  width: 30px;
+}
+.my-profile .vector-2 {
+  height: 19px;
+  left: 307px;
+  position: absolute;
+  top: 137px;
+  width: 19px;
+}
+.my-profile .vector-20 {
+  height: 30px;
+  left: 339px;
+  position: absolute;
+  top: 239px;
+  width: 30px;
+}
+.my-profile .vector-21 {
+  height: 19px;
+  left: 364px;
+  position: absolute;
+  top: 137px;
+  width: 19px;
+}
+.my-profile .vector-22 {
+  height: 30px;
+  left: 516px;
+  position: absolute;
+  top: 239px;
+  width: 30px;
+}
+.my-profile .vector-23 {
+  height: 30px;
+  left: 207px;
+  position: absolute;
+  top: 239px;
+  width: 30px;
+}
+.my-profile .vector-24 {
+  height: 19px;
+  left: 184px;
+  position: absolute;
+  top: 259px;
+  width: 19px;
+}
+.my-profile .vector-25 {
+  height: 76px;
+  left: 586px;
+  position: absolute;
+  top: 130px;
+  width: 80px;
+}
+.my-profile .vector-26 {
+  height: 19px;
+  left: 241px;
+  position: absolute;
+  top: 259px;
+  width: 19px;
+}
+.my-profile .vector-3 {
+  height: 19px;
+  left: 212px;
+  position: absolute;
+  top: 259px;
+  width: 20px;
+}
+.my-profile .vector-4 {
+  height: 19px;
+  left: 298px;
+  position: absolute;
+  top: 259px;
+  width: 19px;
+}
+.my-profile .vector-5 {
+  height: 30px;
+  left: 382px;
+  position: absolute;
+  top: 239px;
+  width: 30px;
+}
+.my-profile .vector-6 {
+  height: 30px;
+  left: 251px;
+  position: absolute;
+  top: 239px;
+  width: 30px;
+}
+.my-profile .vector-7 {
+  height: 19px;
+  left: 278px;
+  position: absolute;
+  top: 137px;
+  width: 20px;
+}
+.my-profile .vector-8 {
+  height: 30px;
+  left: 648px;
+  position: absolute;
+  top: 239px;
+  width: 30px;
+}
+.my-profile .vector-9 {
+  height: 30px;
+  left: 33px;
+  position: absolute;
+  top: 240px;
+  width: 30px;
+}
+.poppins-normal-black-20px {
+  color: black;
+  font-family: "Poppins", Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.poppins-semi-bold-midnight-moss-30px {
+  color: var(--midnight-moss);
+  font-family: "Poppins", Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+}
+.poppins-semi-bold-midnight-moss-60px {
+  color: var(--midnight-moss);
+  font-family: "Poppins", Helvetica;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+}
+.poppins-semi-bold-white-26px {
+  color: white;
+  font-family: "Poppins", Helvetica;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+}
+:root {
+  --cornflower: rgba(151, 198, 252, 1);
+  --dodger-blue: rgba(45, 133, 240, 1);
+  --energy-yellow: rgba(247, 216, 84, 1);
+  --havelock-blue: rgba(87, 151, 228, 1);
+  --midnight-moss: rgba(6, 6, 6, 1);
+  --mustard: rgba(251, 225, 88, 1);
+  --sweet-corn: rgba(255, 234, 146, 1);
+}
