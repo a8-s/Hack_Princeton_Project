@@ -1,0 +1,63 @@
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Apr/2021 00:43:18] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [03/Apr/2021 00:43:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Apr/2021 11:58:44] "[37mGET / HTTP/1.1[0m" 200 -
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Apr/2021 19:49:04] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [03/Apr/2021 19:49:11] "[31m[1mGET /_get_data/ HTTP/1.1[0m" 405 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Apr/2021 21:22:15] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Apr/2021 22:51:03] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Apr/2021 22:51:44] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Apr/2021 22:51:50] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+127.0.0.1 - - [03/Apr/2021 22:53:15] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Apr/2021 22:53:58] "[35m[1mPOST /_get_data/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\David\\Documents\\Hack_Princeton_Project\\app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 983-065-236
+ * Running on http://127.0.0.1:12345/ (Press CTRL+C to quit)
+127.0.0.1 - - [03/Apr/2021 22:54:30] "[37mPOST /_get_data/ HTTP/1.1[0m" 200 -
